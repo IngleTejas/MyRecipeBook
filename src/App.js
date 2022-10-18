@@ -34,7 +34,9 @@ const App = () => {
   };
   return (
     <div className="App">
+    
       <h1>MY RECIPE BOOK</h1>
+      <h5>by TEJAS R. INGLE</h5>
       <form className="search-form" onSubmit={onSubmit}>
         {alert !== "" && <Alert alert={alert} />}
         <input
