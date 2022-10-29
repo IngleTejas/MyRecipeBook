@@ -86,6 +86,7 @@ h5 {
   text-transform: uppercase;
   background-color: #40b48e;
   color: #fff;
+  cursor: pointer;
 }
 
 .recipes {
@@ -107,11 +108,13 @@ h5 {
   position: relative;
   border-radius: 0.5rem;
   box-shadow: 2rem 3rem 5rem #aaa;
+  transition: 0.3s all ease-in-out ;
 }
 .recipe:hover {
   /* -webkit-transform: scale(1.1); */
-  transform: scale(1.1);
-  transition-duration: 0.3s;
+  transform: scale(1.05);
+  /* transition-duration: 0.3s; */
+
 }
 
 .recipe h2 {
@@ -146,6 +149,7 @@ h5 {
   text-transform: uppercase;
   color: #fff;
   background-color: #40b48e;
+  cursor: pointer;
   border: none;
   border-radius: 0.5rem;
   height: 3rem;
